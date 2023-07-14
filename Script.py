@@ -14,13 +14,13 @@ class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", '')
     START_TXT = environ.get("START_TXT", '''<b>Hey {} 𝖭𝗂𝖼𝖾 𝗍𝗈 𝗆𝖾𝖾𝗍 𝗒𝗈𝗎 🤟🏻</b>,
 <b>𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗉𝗋𝖾 - 𝖿𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍</b>🤭
-Owner - @abhi_jeet281 😁''')
+Owner - @ConnectWithEmperor_bot 😁''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """ABHIJEET KUMAR"""
+    ABOUT_TXT = """SALMAN KHAN """
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
-» Contact Me @abhi_jeet281r<b>"""
+» Contact Me @ConnectWithEmperor_bot<b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
 <b>NOTE:</b>
@@ -39,7 +39,7 @@ Owner - @abhi_jeet281 😁''')
 2. Search Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/SouthTamilall1)</code>
+<code>[Button Text](buttonurl:https://t.me/Moviez_Empires)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
