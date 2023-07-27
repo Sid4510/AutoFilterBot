@@ -702,11 +702,11 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("✘ Movie Updates", url="https://telegram.dog/SouthTamilall1"),
-        InlineKeyboardButton("Bot Updates ✘", url="https://telegram.dog/SouthTamilallbots")
+        InlineKeyboardButton("✘ Movie Updates", url="https://telegram.dog/Moviez_Empires"),
+        InlineKeyboardButton("Bot Updates ✘", url="https://telegram.dog/BotEmpires")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔",url="https://telegram.dog/SouthTamilall2/24")]
+        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔",url="https://telegram.dog/BotEmpires/9")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
