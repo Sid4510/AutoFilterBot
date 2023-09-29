@@ -131,12 +131,12 @@ async def next_page(bot, query):
             )
     btn.insert(0,
             [
-                InlineKeyboardButton("✘ Movie Updates ", url="https://telegram.dog/Movies_4dda"),
+                InlineKeyboardButton("✘ Movie Updates ", url="https://telegram.dog/CineFanatic"),
                 InlineKeyboardButton("Bot Updates ✘", url="https://telegram.dog/MovieCineVerse")
             ])
 
     btn.insert(0, [
-        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔", url="https://telegram.dog/Movies_4dda/24")
+        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔", url="https://telegram.dog/CineFanatic/24")
             ]
         )
     try:
@@ -436,9 +436,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('нσω тσ υѕє', url=f'http://telegram.dog/Movies_4dda/24')
+            InlineKeyboardButton('нσω тσ υѕє', url=f'http://telegram.dog/CineFanatic/24')
         ], [
-            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/Movies_4dda'),
+            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/CineFanatic"),
             InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/MovieCineVerse')
             ],[
             InlineKeyboardButton('✘ Close the Menu ✘', callback_data='close_data')
@@ -702,11 +702,11 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("✘ Movie Updates", url="https://telegram.dog/Movies_4dda"),
+        InlineKeyboardButton("✘ Movie Updates", url="https://telegram.dog/CineFanatic"),
         InlineKeyboardButton("Bot Updates ✘", url="https://telegram.dog/MovieCineVerse")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔",url="https://telegram.dog/Movies_4dda/29")]
+        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔",url="https://telegram.dog/CineFanatic/29")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
