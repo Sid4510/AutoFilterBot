@@ -22,7 +22,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                InlineKeyboardButton('⚡ Updates Channel ⚡', url='https://t.me/Movies_4dda')
+                InlineKeyboardButton('⚡ Updates Channel ⚡', url='https://telegram.me/CineFanatic')
             ],
             [
                 InlineKeyboardButton('⚡ Bot Updates ⚡', url='https://telegram.me/MovieCineVerse'),
@@ -45,7 +45,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('нσω тσ υѕє', url=f'https://telegram.me/Movies_4dda/29')
         ], [
-            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.me/Movies_4dda'),
+            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.me/CineFanatic'),
             InlineKeyboardButton('Bot Updates ✘', url='https://telegram.me/MovieCineVerse')
             ],[
             InlineKeyboardButton('✘ Close the Menu ✘', callback_data='close_data')
@@ -88,9 +88,9 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('нσω тσ υѕє', url=f'https://telegram.me/Movies_4dda/29')
+            InlineKeyboardButton('нσω тσ υѕє', url=f'https://telegram.me/CineFanatic/29')
         ], [
-            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.me/Movies_4dda'),
+            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.me/CineFanatic'),
             InlineKeyboardButton('Bot Updates ✘', url='https://telegram.me/MovieCineVerse')
             ],[
             InlineKeyboardButton('✘ Close the Menu ✘', callback_data='close_data')
@@ -243,7 +243,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('✘ Updates Channel', url='https://telegram.dog/Movies_4dda'), InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/MovieCineVerse') ], [ InlineKeyboardButton('🔞 Erotic Updates 🔞', url='https://telegram.dog/MutthiBaaz') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('✘ Updates Channel', url='https://telegram.dog/CineFanatic'), InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/MovieCineVerse') ], [ InlineKeyboardButton('🔞 Erotic Updates 🔞', url='https://telegram.dog/MutthiBaaz') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
     
