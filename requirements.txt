@@ -10,5 +10,5 @@ imdbpy==2021.4.18
 psutil
 pytz
 Flask==2.2.2
-gunicorn==23.2.1
+gunicorn==21.2.0
 aiohttp==3.8.1
