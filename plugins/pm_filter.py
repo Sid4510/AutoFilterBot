@@ -136,7 +136,7 @@ async def next_page(bot, query):
             ])
 
     btn.insert(0, [
-        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔", url="https://telegram.dog/CineFanatic/29")
+        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔", url="http://telegram.dog/CineFanatic/29")
             ]
         )
     try:
@@ -436,7 +436,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('нσω тσ υѕє', url=f'http://telegram.dog/BotEmpires/9')
+            InlineKeyboardButton('нσω тσ υѕє', url=f'http://telegram.dog/MovieCineVerse/4')
         ], [
             InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/CineFanatic'),
             InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/MovieCineVerse')
