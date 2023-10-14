@@ -438,7 +438,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('нσω тσ υѕє', url=f'http://telegram.dog/CineFanatic/24')
         ], [
-            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/CineFanatic"),
+            InlineKeyboardButton('✘ Latest Updates', url="https://telegram.dog/CineFanatic"),
             InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/MovieCineVerse')
             ],[
             InlineKeyboardButton('✘ Close the Menu ✘', callback_data='close_data')
